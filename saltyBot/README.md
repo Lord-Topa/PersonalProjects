@@ -1,5 +1,11 @@
 # Salty-Scraper
 *Project put on hold for forseable future to focus on school and other projects*
+
+## Instructions
+1) Run with python3
+2) Enter username and password
+3) Enjoy
+
 ## Description:
 This program is meant to go to [saltybet](https://www.saltybet.com), scrape data from the 
 homepage and compendium, then display that data in one simple place for the user. 
