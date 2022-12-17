@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.expected_conditions import text_to_be_present_in_element
 from selenium.webdriver.support.ui import WebDriverWait
-#CHANGE THESE TO CHANGE THE ACCOUNT THAT IS USED FOR THE LOGIN
 
 CHROMEWEBDRIVERPATH = './chromedriver' #can be changed if user is using a different driver for different system
 
