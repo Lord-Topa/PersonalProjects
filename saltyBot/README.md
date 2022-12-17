@@ -19,26 +19,27 @@ come up with results.
 
 ## Challenges:
 *presented in a problem followed by solution format*
->How do I get character data for the thousands of characters that saltybet
+
+How do I get character data for the thousands of characters that saltybet
 	  uses on their site?
 	  
-Rather than decide to try and download all of the characters from the site
+>Rather than decide to try and download all of the characters from the site
 	   I did research and found that most salty bet characters (and a lot of mugen
 	   characters in general) use a set of default stats, so my temporary solution
 	   was to use these default values and then modify them based on data presented
 	   on the homepage of saltybet and the information given in the compendium.
 	
 
->Program was having a hard time getting data from a dynamic page using
+Program was having a hard time getting data from a dynamic page using
 	   Requests and html dom manipulation.
 	   
-Switched the program to using selenium, and just grabbing the dynamic 
+>Switched the program to using selenium, and just grabbing the dynamic 
  	   elements directly from the html presented in the browser.
 
->How do I get information from the compendium and how do I get to the 
+How do I get information from the compendium and how do I get to the 
 	   page for the specific character I am looking for?
 	   
-Firstly I created a custom url by combinging the search URL + the 
+>Firstly I created a custom url by combinging the search URL + the 
 	   character name. Then I navigate to the part of the dom holding the 
 	   compendium information, if there is none i leave, if there is some
 	   I take in all of it as a string (it wasn't seperated in dom so I must
@@ -46,7 +47,7 @@ Firstly I created a custom url by combinging the search URL + the
 	   by line I go through each line and if it is data for either the life or 
 	   exhib meters I add that data to an array for addition later.
 
->While I have no proof that my original assumption that saltybet uses
+While I have no proof that my original assumption that saltybet uses
 	   default values for damage is true upon watching clips and comparing 
 	   a few of their characters I downloaded I found that the downloaded 
 	   version often had non-standard stats. This would explain a lot of 
@@ -54,7 +55,7 @@ Firstly I created a custom url by combinging the search URL + the
 	   default stats for themselves how do I find out that information 
 	   and display it?
 	   
-My current approach is likely going to be to use another site that 
+>My current approach is likely going to be to use another site that 
 	   has many of the same characters as saltybet at seemingly similar power
 	   I will use information that I grab from there as well as the info
 	   from saltybet in order to paint a more clear picture. The other option
