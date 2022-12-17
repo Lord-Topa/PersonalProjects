@@ -1,27 +1,27 @@
 # Salty-Scraper
 *Project put on hold for forseable future to focus on school and other projects*
 
-## Instructions
-1) Run with python3
-2) Enter username and password
-3) Enjoy
-
 ## Description:
 This program is meant to go to [saltybet](https://www.saltybet.com), scrape data from the 
 homepage and compendium, then display that data in one simple place for the user. 
 I made this program because I was finding it annoying to try and find all of the data 
 for the fighters before a match to make an informed bet, so I automated it.
 	
+## Requirments: 
+* User has selenium on their system
+* User has chrome webdriver on their system
+* User has a saltybet illuminati account	
+
 ## Limitations:
 Currently only works for 1v1 matches. I plan to add an option/way to make
 it work with 2v2 and 2v1 matches but as of now that is on the back burner
 while I make the program work well with 1v1
 
-## Requirments: 
-User must have selenium on their system as well as the chrome webdriver. 
-User needs to have a salty bet account that is part of the salty illuminati
-as the program uses paid features (home page stat reads and compendium) to 
-come up with results.
+## Instructions
+1) Run with python3
+2) Enter username and password
+3) Enter 1 when prompted and saltybet is showing fighter information
+4) Enjoy
 
 ## Challenges:
 *presented in a problem followed by solution format*
