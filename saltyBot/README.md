@@ -1,5 +1,5 @@
 # Salty-Scraper
-*Project put on hold for forseable future to focus on school and other projects*
+*Project put on hold for forseable future due to lack of time (and willingness to put in more money) to work on and improve this project*
 
 ## Description:
 This program is meant to go to [saltybet](https://www.saltybet.com), scrape data from the 
